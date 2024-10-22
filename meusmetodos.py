@@ -1,7 +1,7 @@
 from tkinter import filedialog, messagebox, simpledialog
 import pandas as pd
 import plotly.graph_objects as go
-
+import yfinance as yf
 
 #
 #    métodos usados para trazer arquivos do sistema para o código.
@@ -103,4 +103,3 @@ def salvar_df_csv(df, nome_arquivo):
     df.to_csv(nome_arquivo, index=False)                     # salva arquivo csv no HD
 
     return print('Arquivo Salvo com sucesso!')               # mensagem de confirmação
-
