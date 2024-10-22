@@ -1,0 +1,8 @@
+/.venv
+/=4.2.0
+/build
+/dist
+/statusinvest-busca-avancada.csv
+/teste.csv
+/teteus.spec
+/__pycache__
